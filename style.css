@@ -1,0 +1,67 @@
+html,body{
+          width:230px;
+          height: 350px;
+          margin:0px;
+          font-family: monospace;
+        }
+        .main-body{
+          width:230px;
+          height: 350px;
+          background-color: white;
+          border:1px solid #48006E;
+          font-family: monospace;
+          font-size: 1.2em;
+          font-weight: 100;
+          overflow: hidden;
+        }
+        h4,h5,span{
+          text-align: center;
+          margin:15px;
+        }
+        h5{
+          margin-bottom:0px;
+          font-size: 1.2em;
+        }
+        h4{
+        height: 50px;
+          background-color: #48006E;
+          line-height: 50px;
+          margin:0px;
+          font-family: Open Sans;
+          color: white;
+          letter-spacing: 2px;
+          margin-bottom: 15px;
+          font-weight: 100;
+        }
+        button{
+          width:60px;
+          height: 30px;
+          border-radius: 5px;
+          border:none;
+          background-color: #48006E;
+          color:white;
+          font-family: Open Sans,monospace;
+          font-size:1.05em;
+          transition: opacity 0.2s ease-in-out;
+        }
+        button:hover{
+          opacity:0.4;
+        }
+        .vals{
+          border-bottom:2px solid #48006E;
+          padding-bottom:5px;
+
+
+        }
+        h5:nth-child(odd){
+          margin-bottom: 20px;
+        }
+        h5:nth-child(even){
+          color: grey;
+        }
+        #stop{
+          display: none;
+        }
+      textarea{
+        width:100%;
+      }
